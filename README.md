@@ -25,7 +25,7 @@ I‘m a acmer, but I was lazy.
 </td><td valign="top" width="50%">
 
 <div align="center">
-<img src="http://tuchuang.lazy-boy-acmer.cn/images/4CDE580266E8866FC6253655AC59DCA6.jpg" align="center" height="" width="" />
+<img src="http://tuchuang.lazy-boy-acmer.cn/images/4CDE580266E8866FC6253655AC59DCA6.jpg" align="center" height="1776" width="786" />
 </div>  
 
 
