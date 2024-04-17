@@ -20,6 +20,7 @@ I‘m a acmer, but I was lazy.
 ## Rapidfire  
 <table><tr><td valign="top" width="50%">
 
+![](http://tuchuang.lazy-boy-acmer.cn/images/EF5C780054845EF867E216B94F205BE7.png)  
 
 
 </td><td valign="top" width="50%">
