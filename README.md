@@ -1,5 +1,4 @@
 ## Hey 👋, I'm santisify(Lazy_boy_)  
-<background url="http://tuchuang.lazy-boy-acmer.cn/images/4CDE580266E8866FC6253655AC59DCA6.jpg">
 <div align="center">
 <a href="https://github.com/santisify" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
