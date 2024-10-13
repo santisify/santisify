@@ -1,20 +1,4 @@
 # My blog ([Lazy_boy_](www.blog.lazy-boy-acmer.cn))
-
-<!--
-**santisify/santisify** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 <!--
 MIT License
 
@@ -76,7 +60,7 @@ Source repository: https://github.com/Xiaokang2022/Xiaokang2022
 <a href="https://github.com/santisify"><img src="https://img.shields.io/badge/GitHub-santisify-blue?logo=github" /></a>
 <a href="https://gitee.com/santisify"><img src="https://img.shields.io/badge/Gitee-santisify-blue?logo=gitee" /></a>
 <a href="https://space.bilibili.com/3493295600700218"><img src="https://img.shields.io/badge/哔哩哔哩-Lazy_boy_-pink?logo=bilibili" /></a>
-<a href="https://wakatime.com/@santisify"><img src="https://wakatime.com/badge/user/67677d2a-fdc6-4c21-a964-b5477332bc69.svg" /></a>
+<a href="https://wakatime.com/@santisify"><img src="https://wakatime.com/badge/user/eb4beae1-9e50-434d-b318-767f936614df.svg" /></a>
 <!-- https://github.com/antonkomarev/github-profile-views-counter -->
 <img src="https://komarev.com/ghpvc/?username=santisify" />
 </p>
