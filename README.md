@@ -76,9 +76,9 @@ Source repository: https://github.com/Xiaokang2022/Xiaokang2022
 <a href="https://github.com/santisify"><img src="https://img.shields.io/badge/GitHub-santisify-blue?logo=github" /></a>
 <a href="https://gitee.com/santisify"><img src="https://img.shields.io/badge/Gitee-santisify-blue?logo=gitee" /></a>
 <a href="https://space.bilibili.com/3493295600700218"><img src="https://img.shields.io/badge/哔哩哔哩-Lazy_boy_-pink?logo=bilibili" /></a>
-<a href="https://wakatime.com/@Xiaokang2022"><img src="https://wakatime.com/badge/user/67677d2a-fdc6-4c21-a964-b5477332bc69.svg" /></a>
+<a href="https://wakatime.com/@santisify"><img src="https://wakatime.com/badge/user/67677d2a-fdc6-4c21-a964-b5477332bc69.svg" /></a>
 <!-- https://github.com/antonkomarev/github-profile-views-counter -->
-<img src="https://komarev.com/ghpvc/?username=Xiaokang2022" />
+<img src="https://komarev.com/ghpvc/?username=santisify" />
 </p>
 
 <!-- https://github.com/kyechan99/capsule-render -->
