@@ -1,0 +1,96 @@
+<link rel="stylesheet" href="./css/editormd.min.css" />
+<div id="editor">
+    <!-- Tips: Editor.md can auto append a `<textarea>` tag -->
+    <textarea style="display:none;"># santisify的在线编辑器</textarea>
+</div>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/editormd.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		var editor = editormd("editor", {
+			mode: "markdown", // gfm 或 markdown 模式
+			name: "", // 表单元素的名称（用于表单提交）
+			value: "", // 初始值（当模式非gfm/markdown时使用）
+			theme: "", // Editor.md主题（v1.5.0前为CodeMirror主题），默认空
+			editorTheme: "default", // 编辑区域主题（v1.5.0+使用CodeMirror主题）
+			previewTheme: "", // 预览区域主题，默认空
+			markdown: "", // 初始Markdown源码
+			appendMarkdown: "", // 若初始文本域非空，追加Markdown内容
+			width: "100%", // 宽度
+			height: "100%", // 高度
+			path: "./lib/", // 依赖模块文件目录
+			pluginPath: "", // 插件目录（若为空则默认使用path + "../plugins/")
+			delay: 300, // 解析Markdown到HTML的延迟（单位：毫秒）
+			autoLoadModules: true, // 自动加载依赖模块
+			watch: true, // 启用实时预览
+			placeholder: "开始Markdown创作...", // 占位文本
+			gotoLine: true, // 启用跳转到行功能
+			codeFold: false, // 代码折叠
+			autoHeight: true, // 自动高度
+			autoFocus: true, // 自动聚焦到编辑器输入区
+			autoCloseTags: true, // 自动闭合HTML标签
+			searchReplace: true, // 启用搜索替换功能（基于CodeMirror）
+			syncScrolling: true, // 同步滚动（可选：true | false | "single"）
+			readOnly: false, // 只读模式
+			tabSize: 4, // Tab键空格数
+			indentUnit: 4, // 缩进单位
+			lineNumbers: true, // 显示行号
+			lineWrapping: true, // 自动换行
+			autoCloseBrackets: true, // 自动闭合括号
+			showTrailingSpace: true, // 显示行尾空格
+			matchBrackets: true, // 高亮匹配括号
+			indentWithTabs: true, // 用Tab键缩进
+			styleSelectedText: true, // 高亮选中文本
+			matchWordHighlight: true, // 匹配单词高亮（可选：true, false, "onselected"）
+			styleActiveLine: true, // 高亮当前行
+			dialogLockScreen: true, // 对话框锁定屏幕
+			dialogShowMask: true, // 显示对话框遮罩层
+			dialogDraggable: true, // 对话框可拖动
+			dialogMaskBgColor: "#fff", // 遮罩层背景颜色
+			dialogMaskOpacity: 0.1, // 遮罩层透明度
+			fontSize: "13px", // 字体大小
+			saveHTMLToTextarea: false, // 是否生成<textarea>保存HTML代码（用于表单提交）
+			// 图片上传配置
+			imageUpload: false, // 启用图片上传
+			imageFormats: ["jpg", "jpeg", "gif", "png", "bmp", "webp"], // 支持的图片格式
+			imageUploadURL: "", // 图片上传接口URL
+			crossDomainUpload: false, // 启用跨域上传
+			uploadCallbackURL: "", // 跨域上传回调URL
+			// Markdown扩展功能
+			toc: true, // 生成目录（Table of Contents）
+			tocm: true, // 使用[TOCM]生成下拉式目录
+			tocTitle: "目录", // 目录下拉菜单标题
+			tocDropdown: true, // 启用目录下拉菜单
+			tocContainer: "", // 自定义目录容器选择器
+			tocStartLevel: 1, // 目录生成起始级别（从H1开始）
+			htmlDecode: true, // 解析HTML标签
+			pageBreak: true, // 解析分页符[========]
+			atLink: true, // @链接功能
+			emailLink: true, // 自动转换邮箱为链接
+			taskList: false, // 支持Github任务列表
+			emoji: true, // 支持:emoji:（Github/Twitter表情）
+			tex: true, // 支持TeX公式（基于KaTeX）
+			flowChart: false, // 流程图（基于flowChart.js，仅支持IE9+）
+			sequenceDiagram: false, // 序列图（基于sequenceDiagram.js，仅支持IE9+）
+			previewCodeHighlight: true, // 预览区代码高亮
+			// 工具栏配置
+			toolbar: true, // 显示工具栏
+			toolbarAutoFixed: true, // 窗口滚动时自动固定工具栏
+			toolbarIcons: "full", // 工具栏图标模式（可选：full, simple, mini）
+			toolbarTitles: {}, // 工具栏按钮标题
+			toolbarHandlers: { // 工具栏按钮自定义处理函数
+				ucwords: function() {
+					return editormd.toolbarHandlers.ucwords;
+				},
+				lowercase: function() {
+					return editormd.toolbarHandlers.lowercase;
+				}
+			},
+			toolbarCustomIcons: { // 自定义工具栏图标（使用HTML标签）
+				lowercase: "<a href=\"javascript:;\" title=\"Lowercase\" unselectable=\"on\"><i class=\"fa\" name=\"lowercase\" style=\"font-size:24px;margin-top: -10px;\">a</i></a>",
+				"ucwords": "<a href=\"javascript:;\" title=\"ucwords\" unselectable=\"on\"><i class=\"fa\" name=\"ucwords\" style=\"font-size:20px;margin-top: -3px;\">Aa</i></a>"
+			},
+			toolbarIconTexts: {}, // 工具栏图标文本
+		});
+	}); 
+</script>
